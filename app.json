@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "filmes",
+    "slug": "filmes", 
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.yourname.filmes",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.yourname.filmes",
+      "versionCode": 1
+    },
+    "description": ""
+  }
+}
